@@ -1,0 +1,198 @@
+Add test cases for all functions with the name Average here.
+.  // <- separates the test cases (needed at start and end)
+.  p-type:  <-is how to define a parameter and its value 
+.  i: <- specifies input to be passed to the scanner if any is needed
+.  o: <- specifies any expected output to be printed
+.  r: <- specifies the value the function will return(omit this line if it returns nothing)
+
+//test 1
+o:Enter a Currency Type (USD,CAD,EURO):
+i:USD
+o:Enter amount:
+i:1
+o:Enter a Currency Type (USD,CAD,EURO):
+i:CAD
+o:1.26 CAD
+
+
+///////////////////////////////////////////////////////////////////////////////
+//test 2
+o:Enter a Currency Type (USD,CAD,EURO):
+i:USD
+o:Enter amount:
+i:1
+o:Enter a Currency Type (USD,CAD,EURO):
+i:DAC
+o:Currency type not supported
+//
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////
+//test 2
+o:Enter a Currency Type (USD,CAD,EURO):
+i:USD
+o:Enter amount:
+i:1
+o:Enter a Currency Type (USD,CAD,EURO):
+i:EURO
+o:0.81 EURO
+//
+
+
+///////////////////////////////////////////////////////////////////////////////
+//test 2
+o:Enter a Currency Type (USD,CAD,EURO):
+i:USD
+o:Enter amount:
+i:-1
+o:Enter a Currency Type (USD,CAD,EURO):
+i:EURO
+o:-0.81 EURO
+//
+
+///////////////////////////////////////////////////////////////////////////////
+//test 2
+o:Enter a Currency Type (USD,CAD,EURO):
+i:USD
+o:Enter amount:
+i:-1
+o:Enter a Currency Type (USD,CAD,EURO):
+i:CAD
+o:-1.26 CAD
+//
+
+
+//test 2
+o:Enter a Currency Type (USD,CAD,EURO):
+i:USD
+o:Enter amount:
+i:2
+o:Enter a Currency Type (USD,CAD,EURO):
+i:CAD
+o:2.52 CAD
+//
+
+
+///////////////////////////////////////////////////////////////////////////////
+//test 2
+o:Enter a Currency Type (USD,CAD,EURO):
+i:USD
+o:Enter amount:
+i:2
+o:Enter a Currency Type (USD,CAD,EURO):
+i:EURO
+o:1.62 EURO
+//
+
+
+///////////////////////////////////////////////////////////////////////////////
+//test 2
+o:Enter a Currency Type (USD,CAD,EURO):
+i:USD
+o:Enter amount:
+i:.5
+o:Enter a Currency Type (USD,CAD,EURO):
+i:EURO
+o:0.41 EURO
+//
+
+///////////////////////////////////////////////////////////////////////////////
+//test 2
+o:Enter a Currency Type (USD,CAD,EURO):
+i:USD
+o:Enter amount:
+i:-.5
+o:Enter a Currency Type (USD,CAD,EURO):
+i:EURO
+o:-0.41 EURO
+//
+
+///////////////////////////////////////////////////////////////////////////////
+//test 2
+o:Enter a Currency Type (USD,CAD,EURO):
+i:EURO
+o:Enter amount:
+i:0.81
+o:Enter a Currency Type (USD,CAD,EURO):
+i:USD
+o:1.00 USD
+//
+
+///////////////////////////////////////////////////////////////////////////////
+//test 2
+o:Enter a Currency Type (USD,CAD,EURO):
+i:CAD
+o:Enter amount:
+i:1.26
+o:Enter a Currency Type (USD,CAD,EURO):
+i:USD
+o:1.00 Usd
+//
+
+
+//test 2
+o:Enter a Currency Type (USD,CAD,EURO):
+i:EURO
+o:Enter amount:
+i:-0.81
+o:Enter a Currency Type (USD,CAD,EURO):
+i:USD
+o:-1.00 USD
+//
+
+///////////////////////////////////////////////////////////////////////////////
+//test 2
+o:Enter a Currency Type (USD,CAD,EURO):
+i:CAD
+o:Enter amount:
+i:-1.26
+o:Enter a Currency Type (USD,CAD,EURO):
+i:USD
+o:-1.00 USD
+//
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////
+//test 2
+o:Enter a Currency Type (USD,CAD,EURO):
+i:Casadasd
+o:Currency type not supported
+//
+
+///////////////////////////////////////////////////////////////////////////////
+//test 2
+o:Enter a Currency Type (USD,CAD,EURO):
+i:CAD
+o:Enter amount:
+i:-gg
+o:Not a number
+//
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

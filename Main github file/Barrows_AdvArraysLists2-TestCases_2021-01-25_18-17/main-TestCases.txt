@@ -1,0 +1,206 @@
+//test1
+o:Would you like to (create account) or (login)?
+i:login				
+o:Enter Username:
+i:Bob	
+o:Enter Password:
+i:Ross	
+o:sorry account does not match records
+o:Would you like to (create account) or (login)?
+i:create account				
+o:Enter Username:
+i:Bob	
+o:Enter Password:	
+i:Ross
+o:Would you like to (create account) or (login)?
+i:login				
+o:Enter Username:
+i:Bob	
+o:Enter Password:
+i:GoldenGun	
+o:sorry account does not match records
+o:Would you like to (create account) or (login)?
+i:login				
+o:Enter Username:
+i:Bob	
+o:Enter Password:
+i:Ross	
+o:welcome, Bob
+//
+
+
+//test1
+o:Would you like to (create account) or (login)?
+i:login				
+o:Enter Username:
+i:Bob	
+o:Enter Password:
+i:Ross	
+o:sorry account does not match records
+o:Would you like to (create account) or (login)?
+i:create account				
+o:Enter Username:
+i:Bob	
+o:Enter Password:	
+i:Ross123123
+o:Would you like to (create account) or (login)?
+i:login				
+o:Enter Username:
+i:Bob	
+o:Enter Password:
+i:GoldenGun3232	
+o:sorry account does not match records
+o:Would you like to (create account) or (login)?
+i:login				
+o:Enter Username:
+i:Bob	
+o:Enter Password:
+i:Ross123123	
+o:welcome, Bob
+//
+
+
+
+//test1
+o:Would you like to (create account) or (login)?
+i:lasdfsadfsadf
+o:Would you like to (create account) or (login)?
+i:1232131824908r89731274892174309
+o:Would you like to (create account) or (login)?
+i:login			
+o:Enter Username:
+i:Bob	
+o:Enter Password:
+i:Ross	
+o:sorry account does not match records
+o:Would you like to (create account) or (login)?
+i:create account				
+o:Enter Username:
+i:Bob	
+o:Enter Password:	
+i:Ross123123
+o:Would you like to (create account) or (login)?
+i:login				
+o:Enter Username:
+i:Bob	
+o:Enter Password:
+i:GoldenGun3232	
+o:sorry account does not match records
+o:Would you like to (create account) or (login)?
+i:login				
+o:Enter Username:
+i:Bob	
+o:Enter Password:
+i:Ross123123	
+o:welcome, Bob
+//
+
+
+//test 4
+o:Would you like to (create account) or (login)?
+i:create account				
+o:Enter Username:
+i:123133213312313
+o:Enter Password:	
+i:12312
+o:Would you like to (create account) or (login)?
+i:login
+o:Enter Username:
+i:123133213312313
+o:Enter Password:	
+i:12312
+o:welcome, 123133213312313
+//
+
+
+//test 4
+o:Would you like to (create account) or (login)?
+i:create account				
+o:Enter Username:
+i:123133213312313
+o:Enter Password:	
+i:12312
+
+
+o:Would you like to (create account) or (login)?
+i:create account				
+o:Enter Username:
+i:123133213312313
+
+o:Enter Username:
+i:yas
+
+o:Enter Password:	
+i:12312
+o:Would you like to (create account) or (login)?
+i:login
+o:Enter Username:
+i:123133213312313
+o:Enter Password:	
+i:12312
+o:welcome, 123133213312313
+//
+
+//test 4
+o:Would you like to (create account) or (login)?
+i:create account				
+o:Enter Username:
+i:123133213312313
+o:Enter Password:	
+i:12312
+
+
+o:Would you like to (create account) or (login)?
+i:create account				
+o:Enter Username:
+i:123133213312313
+
+o:Enter Username:
+i:yas
+
+o:Enter Password:	
+i:12312
+o:Would you like to (create account) or (login)?
+i:login
+o:Enter Username:
+i:yas
+o:Enter Password:	
+i:12312
+o:welcome, yas
+//
+
+
+//test 4
+o:Would you like to (create account) or (login)?
+i:create account				
+o:Enter Username:
+i:123133213312313
+o:Enter Password:	
+i:yas2
+
+
+o:Would you like to (create account) or (login)?
+i:create account				
+o:Enter Username:
+i:123133213312313
+
+o:Enter Username:
+i:yas
+
+o:Enter Password:	
+i:12312
+o:Would you like to (create account) or (login)?
+i:login
+o:Enter Username:
+i:yas
+o:Enter Password:	
+i:yas2
+o:sorry account does not match records
+o:Would you like to (create account) or (login)?
+i:login
+o:Enter Username:
+i:yas
+o:Enter Password:	
+i:12312
+o:welcome, yas
+//

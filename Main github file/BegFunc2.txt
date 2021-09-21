@@ -1,0 +1,43 @@
+public  class Main {
+  
+  public static void main(String[] args) {
+    
+    HelloWorld();
+    Hello("Baker");
+    Hello("Pete");
+    Hello("World");
+    System.out.println(Sum(1.5,1.5, 3));
+    double x = Average(1.5, 1.5, 3);
+    Sum(2, 5, x);
+    System.out.println(Average(1, 2, 3, 6));
+    System.out.println(Sum(1, 2, 3, 4));
+  }
+
+static void HelloWorld(){
+System.out.println("Hello, World");
+}
+
+static void Hello(String name){
+System.out.println("Hello, "+ name);
+}
+
+static double Sum(double a, double b, double c ){
+return a+b+c;
+}
+
+static double Average(double a,double b ,double c){
+return (a+b+c)/3;
+} 
+
+static int Sum(int a,int b ,int c,int d){
+int x = (a+b+c+d);
+return x;
+} 
+
+static double Average(int a,int b , int c,int d){
+double test = (a+b+c+d)/4.0;
+return test;
+} 
+
+
+}

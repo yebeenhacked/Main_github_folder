@@ -1,0 +1,102 @@
+There are 2 parts to this problem commit and push your work to github after each part (you may commit and push more often but at least after each part).
+Part 1: "IntFunc2-TestCases" - Create the test cases for each of the functions described below 
+        (put them in the provided functionName-TestCases.txt files, and submit all the *-TestCases.txt to mimir).
+Part 2: "IntFunc2" - Create a java project, and implement the functions described below.
+         After you created the functions go back and make the calls to the functions as described below.
+
+Note the main focus of this assignment is to practice writing functions,  all of the functions are intentionally left simple in what they do because that is not the focus of this assignment.
+Functions to implement: 
+
+
+/*
+Function Name: AnswerPrinter
+Parameters: 1 string
+What it should do: 
+	print the message: "the word is: " and the value of the parameter.
+Returns: nothing
+*/
+ 
+ /*
+Function Name: AnswerPrinter
+Parameters: 1 double
+What it should do: 
+	print the message: "the number is: " and the value of the parameter.
+Returns: nothing
+*/
+/*
+Function Name: AnswerPrinter
+Parameters: 1 integer
+What it should do: 
+	print the message: "the number is: " and the value of the parameter.
+Returns: nothing
+*/
+
+/*
+Function Name: FindRectangleArea
+Parameters: 2 doubles (length and witdth)
+What it should do: 
+	 calculate the area of a Rectangle given the length and width
+   call the AnswerPrinter Function passing in the calculated value
+Returns: the calculated area
+*/
+
+/*
+Function Name: FindTriangleArea
+Parameters: 2 doubles (base and height)
+What it should do: 
+	 calculate the area of a triangle given the base and height
+    call the AnswerPrinter Function passing in the calculated value
+Returns: the calculated area
+*/
+
+/*
+Function Name: FindRectanglePerimeter
+Parameters: 2 doubles (length and width)
+What it should do: 
+	calculate the perimeter of the rectangle
+   call the AnswerPrinter Function passing in the calculated value
+Returns: the calculated perimeter
+*/
+ 
+ /*
+Function Name: FindTrianglePerimeter
+Parameters: 3 doubles (the lengths of the sides)
+What it should do: 
+	calculate the perimeter of the triangle
+   call the AnswerPrinter Function passing in the calculated value
+Returns: the calculated perimeter
+*/
+
+ 
+/*
+Function Name: PrinterChecker
+Parameters: 1 String, 1 integer, 1 double
+What it should do: 
+	call the AnswerPrinter function 3 times, 
+      -fist passing in the String parameter
+      -second time passing in the integer parameter
+      -third time passing in the double parameter
+Returns: nothing
+*/
+
+
+In the main function, after creating the above functions do the following:
+
+Call AnswerPrinter passing in 12
+Call AnswerPrinter passing in 12.5
+Call AnswerPrinter passing in "What do you get from a pampered cow?"
+Call AnswerPrinter passing in -2
+Call AnswerPrinter passing in 6.2
+Call AnswerPrinter passing in "Spoiled milk"
+
+Call PrinterChecker passing in "bob", 4, 2.5
+
+Call FindRectangleArea passing in 3,5
+Call FindTriangleArea passing in 4,6
+Call FindRectanglePerimeter passing in 3,5
+Call FindTrianglePerimeter passing in 4,6,7
+
+Call FindRectangleArea passing in 42.5,20
+Call FindTriangleArea passing in 41,16.6
+Call FindRectanglePerimeter passing in 22,35.25
+Call FindTrianglePerimeter passing in 44.5,20,22.25

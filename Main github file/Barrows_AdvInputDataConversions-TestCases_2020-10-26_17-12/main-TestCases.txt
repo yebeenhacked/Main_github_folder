@@ -1,0 +1,76 @@
+Add test cases for all functions with the name Average here.
+.  // <- separates the test cases (needed at start and end)
+.  p-type:  <-is how to define a parameter and its value 
+.  i: <- specifies input to be passed to the scanner if any is needed
+.  o: <- specifies any expected output to be printed
+.  r: <- specifies the value the function will return(omit this line if it returns nothing)
+
+
+
+//test 1
+//test 1
+o:Enter your name:
+i:Bob
+o:Enter a number:
+i:10
+o:Enter a number:
+i:4
+o:Enter a number:
+i:7
+o:Bob, your average is: 7.0
+//test 2
+o:Enter your name:
+i:Bob
+o:Enter a number:
+i:5
+o:Enter a number:
+i:4
+o:Enter a number:
+i:6
+o:Bob, your average is: 5.0
+
+
+//test 2
+o:Enter your name:
+i:Bob
+o:Enter a number:
+i:10.2
+o:Enter a number:
+i:6.6
+o:Enter a number:
+i:1.2
+o:Bob, your average is: 6.0
+
+
+//test 2
+o:Enter your name:
+i:Bob
+o:Enter a number:
+i:10.2
+o:Enter a number:
+i:9
+o:Enter a number:
+i:-1.2
+o:Bob, your average is: 6.0
+
+//test 2
+o:Enter your name:
+i:Bobb
+o:Enter a number:
+i:-10.7
+o:Enter a number:
+i:-6.6
+o:Enter a number:
+i:-1.6
+o:Bobb, your average is: -6.3
+
+//test 2
+o:Enter your name:
+i:testman
+o:Enter a number:
+i:10.2
+o:Enter a number:
+i:6.6
+o:Enter a number:
+i:1.2
+o:testman, your average is: 6.0

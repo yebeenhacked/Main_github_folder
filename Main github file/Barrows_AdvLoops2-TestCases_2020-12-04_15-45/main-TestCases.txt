@@ -1,0 +1,56 @@
+
+// test 1
+o:enter a number
+i:1
+o:enter a number
+i:7.5
+o:2
+o:3
+o:5
+o:7
+
+
+
+//test 2
+o:enter a number
+i:14
+o:enter a number
+i:bob
+o:not a number
+o:enter a number
+i:7
+o:7
+o:11
+o:13
+//
+
+
+//test3
+o:enter a number
+i:bob
+o:not a number
+o:enter a number
+i:bobagian
+o:not a number
+o:enter a number
+i:1
+o:enter a number
+i:3
+o:2
+o:3
+
+//test4
+o:enter a number
+i:bob
+o:not a number
+o:enter a number
+i:bobagian
+o:not a number
+i:1
+o:enter a number
+i:fsdfsfsafa
+o:not a number
+o:enter a number
+i:3
+o:2
+o:3

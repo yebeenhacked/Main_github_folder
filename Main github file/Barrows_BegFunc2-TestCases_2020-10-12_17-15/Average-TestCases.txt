@@ -1,0 +1,45 @@
+Add test cases for all functions with the name Average here.
+.  // <- separates the test cases (needed at start and end)
+.  p-type:  <-is how to define a parameter and its value 
+.  i: <- specifies input to be passed to the scanner if any is needed
+.  o: <- specifies any expected output to be printed
+.  r: <- specifies the value the function will return(omit this line if it returns nothing)
+
+/*
+Function Name: Average
+Parameters: 4 integers
+What it should do: 
+	calculate the average of the 4 parameters 
+Returns: the average (as a double)
+*/
+
+//Average(4 input)
+p-int:2
+p-int:2
+p-int:2
+p-int:2
+r:2.0
+//
+
+//Average(4 input)
+p-int:3
+p-int:2
+p-int:2
+p-int:2
+r:2.25
+//
+
+/*
+Function Name: Average
+Parameters: 3 doubles
+What it should do: 
+	calculate the average of the 3 parameters
+Returns: the average
+*/
+
+//Average(3 input)
+p-double:2
+p-double:2
+p-double:-2
+r:0.6666666666666666
+//

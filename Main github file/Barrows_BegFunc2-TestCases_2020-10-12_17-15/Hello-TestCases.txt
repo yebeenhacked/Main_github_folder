@@ -1,0 +1,20 @@
+Add test cases for all functions with the name Average here.
+.  // <- separates the test cases (needed at start and end)
+.  p-type:  <-is how to define a parameter and its value 
+.  i: <- specifies input to be passed to the scanner if any is needed
+.  o: <- specifies any expected output to be printed
+.  r: <- specifies the value the function will return(omit this line if it returns nothing)
+
+/*
+Function Name: Hello
+Parameters: a string representing a name
+What it should do: 
+	prints "Hello, "  and the value of the name
+Returns: nothing
+*/
+
+
+//hello(1 input)
+p-String:yes
+o:Hello, yes
+//

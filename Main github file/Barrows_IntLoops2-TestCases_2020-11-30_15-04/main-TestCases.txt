@@ -1,0 +1,97 @@
+.  // <- separates the test cases (needed at start and end)
+.  p-type:  <-is how to define a parameter and its value 
+.  i: <- specifies input to be passed to the scanner if any is needed
+.  o: <- specifies any expected output to be printed
+.  r: <- specifies the value the function will return(omit this line if it returns nothing)
+
+// test 1
+o:enter a digit:
+i:1
+o:enter a digit:
+i:1
+o:enter a digit:
+i:7
+o:Congratulations!
+
+
+//test 2
+o:enter a digit:
+i:1
+o:enter a digit:
+i:1
+o:enter a digit:
+i:bob
+o:not a digit
+o:enter a digit:
+i:1
+o:enter a digit:
+i:1
+o:enter a digit:
+i:7
+o:Congratulations!
+//
+
+
+
+//test3
+o:enter a digit:
+i:1
+o:enter a digit:
+i:1
+o:enter a digit:
+i:8
+o:enter a digit:
+i:1
+o:enter a digit:
+i:1
+o:enter a digit:
+i:7
+o:Congratulations!
+
+//test4
+o:enter a digit:
+i:1
+o:enter a digit:
+i:1
+o:enter a digit:
+i:70
+o:Not a digit
+o:enter a digit:
+i:1
+o:enter a digit:
+i:1
+o:enter a digit:
+i:7
+o:Congratulations!
+
+//test5
+o:enter a digit:
+i:1
+o:enter a digit:
+i:1
+o:enter a digit:
+i:.7
+o:Not a digit
+o:enter a digit:
+i:1
+o:enter a digit:
+i:1
+o:enter a digit:
+i:7
+o:Congratulations!
+
+//test6
+o:enter a digit:
+i:1
+o:enter a digit:
+i:1
+o:enter a digit:
+i:6.5
+o:Not a digit
+o:enter a digit:
+i:1
+o:enter a digit:
+i:1
+o:enter a digit:
+i:7
+o:Congratulations!

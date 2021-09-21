@@ -1,0 +1,73 @@
+There are 2 parts to this problem commit and push your work to github after each part (you may commit and push more often but at least after each part).
+Part 1: "BegFunc2-TestCases" - Create the test cases for each of the functions described below 
+        (put them in the provided functionName-TestCases.txt files, and submit all the *-TestCases.txt to mimir).
+Part 2: "BegFunc2" - Create a java project, and implement the functions described below.
+         After you created the functions go back and make the calls to the functions as described below.
+
+
+Functions to implement
+/*
+Function Name: HelloWorld
+Parameters: none
+What it should do: 
+	print "Hello, World"
+Returns: nothing
+*/
+
+/*
+Function Name: Hello
+Parameters: a string representing a name
+What it should do: 
+	prints "Hello, "  and the value of the name
+Returns: nothing
+*/
+
+/*
+Function Name: Sum
+Parameters: 3 doubles
+What it should do: 
+	calculate the sum of the 3 parameters
+Returns: the result from adding the parameters together
+*/
+ 
+/*
+Function Name: Average
+Parameters: 3 doubles
+What it should do: 
+	calculate the average of the 3 parameters
+Returns: the average
+*/
+
+/*
+Function Name: Sum
+Parameters: 4 integers
+What it should do: 
+	calculate the sum of the 4 parameters
+Returns: the result from adding the parameters together
+*/
+ 
+/*
+Function Name: Average
+Parameters: 4 integers
+What it should do: 
+	calculate the average of the 4 parameters 
+Returns: the average (as a double)
+*/
+
+
+In the main function, after creating the above functions do the following:
+
+Call HelloWorld
+Call Hello  passing in Baker for the parameter
+Call Hello  passing in Pete for the parameter
+Call Hello  passing in World for the parameter
+
+Call Sum passing in 1.5,1.5,3 for the parameters and print the result returned by the call
+Call Average passing in 1.5,1.5,3 for the parameters and save in a variable called X
+Call Sum passing in 2,5,X for the parameters 
+Call Average passing in 1,2,3,6 for the parameters and print the result
+Call Sum passing in 1,2,3,4 for the parameters and print the result
+
+
+Sample test cases:
+See the Sum-TestCases.txt file for examples

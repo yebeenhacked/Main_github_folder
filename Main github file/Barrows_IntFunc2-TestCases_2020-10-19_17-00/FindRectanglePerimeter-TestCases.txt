@@ -1,0 +1,23 @@
+
+Add test cases for all functions with the name Average here.
+.  // <- separates the test cases (needed at start and end)
+.  p-type:  <-is how to define a parameter and its value 
+.  i: <- specifies input to be passed to the scanner if any is needed
+.  o: <- specifies any expected output to be printed
+.  r: <- specifies the value the function will return(omit this line if it returns nothing)
+
+
+
+//FindRectanglePerimeter(2 input)
+p-double:4
+p-double:4
+o:the number is: 16.0
+r:16.0
+//
+
+//FindRectanglePerimeter(2 input)
+p-double:4
+p-double:4.6
+o:the number is: 17.2
+r:17.2
+//

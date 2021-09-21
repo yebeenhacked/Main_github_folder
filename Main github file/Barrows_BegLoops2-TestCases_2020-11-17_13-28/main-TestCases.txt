@@ -1,0 +1,43 @@
+.  // <- separates the test cases (needed at start and end)
+.  i: <- specifies input to be passed to the scanner if any is needed
+.  o: <- specifies any expected output to be printed
+
+// test 1
+o:Enter a number:
+i:6
+o:1
+o:3
+o:5
+//
+
+// test 2
+o:Enter a number:
+i:bob
+o:not a number
+//
+
+//sdf
+o:Enter a number:
+i:-2
+o:
+
+//
+
+
+//ops
+o:Enter a number:
+i:7
+o:1
+o:3
+o:5
+//
+
+
+//5
+o:Enter a number:
+i:7.5
+o:1
+o:3
+o:5
+o:7
+//

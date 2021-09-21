@@ -1,0 +1,46 @@
+There are 2 parts to this problem commit and push your work to github after each part (you may commit and push more often but at least after each part).
+Part 1: "AdvFunc2-TestCases" - Create the test cases for the function below.
+Part 2: "IntFunc2" - Create a java project, and implement the function described below.
+         After you created the function go back and test your Fibonacci function with all of the test cases you made in part 1 by making calls to your function from within the Main Function.
+
+For this assignment you are going to create a function that generates the nth term of the fibinocci sequence.
+    The Fibonacci sequence is a series of numbers where a number is the addition of the last two numbers, starting with 0, and 1.
+
+    The Fibonacci Sequence: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55…
+
+    Written as a rule, the expression is:
+    X(0)=0
+    X(1)=1
+    
+    X(n) = X(n-1) + X(n-2)
+
+To do this you will need to create a recursive function (similar to those for AdvFunc1).  A recursive function is a function that calls itself.  All recursive functions need 
+to have base case (a way for the function to reach the end so they can start to unwind).  
+
+Since we have not gone over conditional statements yet the base cases  can be expressed as: X(0)=0 and X(1)=1  or in code this can be written as:
+    if(n==0){
+      return 0;
+    }
+    if(n==1){
+      return 1;
+    }
+    
+    
+ 
+ Assumptions:  You may assume that we will only pass in positive whole numbers for inputs to this function.(you can ignore the negative case.
+
+
+Note: the amount of code that you need to write for this program is really small and most of the answer is given to you,  the main focus for this assignment is to expose you to recursive functions and to be used as part of the explanation.
+So you should be able to trace through the function calls and explain how it works.
+
+Additional details on problem:
+////
+Function name:Fibonacci
+Parameters: 1 integer (n)
+What it should do: 
+	calculate the nth fibonacci term in the sequence. 
+Returns: the calculated term
+*/
+
+So:
+Fibonacci(7) should return 13.

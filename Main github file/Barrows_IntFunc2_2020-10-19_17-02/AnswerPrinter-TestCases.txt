@@ -1,0 +1,46 @@
+
+Add test cases for all functions with the name Average here.
+.  // <- separates the test cases (needed at start and end)
+.  p-type:  <-is how to define a parameter and its value 
+.  i: <- specifies input to be passed to the scanner if any is needed
+.  o: <- specifies any expected output to be printed
+.  r: <- specifies the value the function will return(omit this line if it returns nothing)
+
+
+//*
+Function Name: AnswerPrinter
+Parameters: 1 string
+What it should do: 
+	print the message: "the word is: " and the value of the parameter.
+Returns: nothing
+*/
+ 
+ /*
+Function Name: AnswerPrinter
+Parameters: 1 double
+What it should do: 
+	print the message: "the number is: " and the value of the parameter.
+Returns: nothing
+*/
+/*
+Function Name: AnswerPrinter
+Parameters: 1 integer
+What it should do: 
+	print the message: "the number is: " and the value of the parameter.
+Returns: nothing
+*/
+
+//AnswerPrinter(1 input)
+p-String:test
+o:the word is: test
+//
+
+//AnswerPrinter(1 input)
+p-double:3
+o:the number is: 3.0
+//
+
+//AnswerPrinter(1 input)
+p-int:3
+o:the number is: 3
+//

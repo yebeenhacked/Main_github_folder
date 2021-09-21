@@ -1,0 +1,228 @@
+Add test cases for all functions with the name Average here.
+.  // <- separates the test cases (needed at start and end)
+.  p-type:  <-is how to define a parameter and its value 
+.  i: <- specifies input to be passed to the scanner if any is needed
+.  o: <- specifies any expected output to be printed
+.  r: <- specifies the value the function will return(omit this line if it returns nothing)
+
+
+//test 1
+o:Enter a score:
+i:89
+o:Your grade: B+
+//
+//test 2
+o:Enter a score:
+i:90
+o:Your grade: A-
+//
+
+//test 3
+o:Enter a score:
+i:3000
+o:Your grade: A
+//
+//test 4
+o:Enter a score:
+i:-900
+o:Your grade: E
+//
+//test 1
+o:Enter a score:
+i:-55.5
+o:Your grade: E
+//
+//test 2
+o:Enter a score:
+i:90
+o:Your grade: A-
+//
+
+
+////////////////////////////////////
+
+
+//test 5
+o:Enter a score:
+i:93
+o:Your grade: A
+//
+//test 6
+o:Enter a score:
+i:90
+o:Your grade: A-
+//
+//test 7
+o:Enter a score:
+i:87
+o:Your grade: B+
+//
+//test 2
+o:Enter a score:
+i:83
+o:Your grade: B
+//
+
+
+//test 1
+o:Enter a score:
+i:80
+o:Your grade: B-
+//
+//test 2
+o:Enter a score:
+i:77
+o:Your grade: C+
+//
+//test 1
+o:Enter a score:
+i:73
+o:Your grade: C
+//
+//test 2
+o:Enter a score:
+i:70
+o:Your grade: C-
+//
+
+//test 1
+o:Enter a score:
+i:67
+o:Your grade: D+
+//
+//test 2
+o:Enter a score:
+i:63
+o:Your grade: D
+//
+
+//test 1
+o:Enter a score:
+i:60
+o:Your grade: D-
+//
+//test 2
+o:Enter a score:
+i:44
+o:Your grade: E
+//
+
+
+
+
+//////////////////////////////////////////////////////
+
+//test 5
+o:Enter a score:
+i:100
+o:Your grade: A
+//
+//test 6
+o:Enter a score:
+i:92
+o:Your grade: A-
+//
+//test 7
+o:Enter a score:
+i:89
+o:Your grade: B+
+//
+//test 2
+o:Enter a score:
+i:86
+o:Your grade: B
+//
+
+
+//test 1
+o:Enter a score:
+i:82
+o:Your grade: B-
+//
+//test 2
+o:Enter a score:
+i:79
+o:Your grade: C+
+//
+//test 1
+o:Enter a score:
+i:76
+o:Your grade: C
+//
+//test 2
+o:Enter a score:
+i:72
+o:Your grade: C-
+//
+
+//test 1
+o:Enter a score:
+i:69
+o:Your grade: D+
+//
+//test 2
+o:Enter a score:
+i:66
+o:Your grade: D
+//
+
+//test 1
+o:Enter a score:
+i:62
+o:Your grade: D-
+//
+//test 2
+o:Enter a score:
+i:44
+o:Your grade: E
+//
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

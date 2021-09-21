@@ -1,0 +1,27 @@
+
+Add test cases for all functions with the name Average here.
+.  // <- separates the test cases (needed at start and end)
+.  p-type:  <-is how to define a parameter and its value 
+.  i: <- specifies input to be passed to the scanner if any is needed
+.  o: <- specifies any expected output to be printed
+.  r: <- specifies the value the function will return(omit this line if it returns nothing)
+
+
+Function Name: PrinterChecker
+Parameters: 1 String, 1 integer, 1 double
+What it should do: 
+	call the AnswerPrinter function 3 times, 
+      -fist passing in the String parameter
+      -second time passing in the integer parameter
+      -third time passing in the double parameter
+Returns: nothing
+*/
+
+//PrinterChecker(3 input)
+p-String:"test"
+p-int:3
+p-double:3
+o:the word is: "test"
+o:the number is: 3
+o:the number is: 3.0
+//
